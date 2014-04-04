@@ -19,8 +19,6 @@
 		420D367D18EABCD100B4681C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D366518EABCD100B4681C /* UIKit.framework */; };
 		420D368518EABCD100B4681C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 420D368318EABCD100B4681C /* InfoPlist.strings */; };
 		420D368718EABCD100B4681C /* BuiltFacebookTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D368618EABCD100B4681C /* BuiltFacebookTutorialTests.m */; };
-		420D369318EABD7900B4681C /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 420D369018EABD7900B4681C /* BuiltIO.bundle */; };
-		420D369418EABD7900B4681C /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369118EABD7900B4681C /* BuiltIO.framework */; };
 		420D369718EABDDB00B4681C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369618EABDDB00B4681C /* QuartzCore.framework */; };
 		420D369918EABDEB00B4681C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369818EABDEB00B4681C /* Security.framework */; };
 		420D369B18EABDF200B4681C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369A18EABDF200B4681C /* SystemConfiguration.framework */; };
@@ -44,6 +42,8 @@
 		420D36CE18EB009600B4681C /* contacts-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 420D36CC18EB009600B4681C /* contacts-icon.png */; };
 		420D36CF18EB009600B4681C /* missing_person.png in Resources */ = {isa = PBXBuildFile; fileRef = 420D36CD18EB009600B4681C /* missing_person.png */; };
 		7DA7A8D418EC1A5B00F95AEB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA7A8D318EC1A5B00F95AEB /* FacebookSDK.framework */; };
+		7DF72B4218EEC26900EE9AC6 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DF72B4018EEC26900EE9AC6 /* BuiltIO.bundle */; };
+		7DF72B4318EEC26900EE9AC6 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF72B4118EEC26900EE9AC6 /* BuiltIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +73,6 @@
 		420D368218EABCD100B4681C /* BuiltFacebookTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltFacebookTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		420D368418EABCD100B4681C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		420D368618EABCD100B4681C /* BuiltFacebookTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltFacebookTutorialTests.m; sourceTree = "<group>"; };
-		420D369018EABD7900B4681C /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
-		420D369118EABD7900B4681C /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
 		420D369618EABDDB00B4681C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		420D369818EABDEB00B4681C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		420D369A18EABDF200B4681C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -110,6 +108,8 @@
 		420D36CC18EB009600B4681C /* contacts-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts-icon.png"; sourceTree = "<group>"; };
 		420D36CD18EB009600B4681C /* missing_person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing_person.png; sourceTree = "<group>"; };
 		7DA7A8D318EC1A5B00F95AEB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		7DF72B4018EEC26900EE9AC6 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
+		7DF72B4118EEC26900EE9AC6 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 				420D369918EABDEB00B4681C /* Security.framework in Frameworks */,
 				420D366418EABCD100B4681C /* CoreGraphics.framework in Frameworks */,
 				420D369718EABDDB00B4681C /* QuartzCore.framework in Frameworks */,
-				420D369418EABD7900B4681C /* BuiltIO.framework in Frameworks */,
 				420D366618EABCD100B4681C /* UIKit.framework in Frameworks */,
+				7DF72B4318EEC26900EE9AC6 /* BuiltIO.framework in Frameworks */,
 				420D366218EABCD100B4681C /* Foundation.framework in Frameworks */,
 				7DA7A8D418EC1A5B00F95AEB /* FacebookSDK.framework in Frameworks */,
 			);
@@ -169,6 +169,8 @@
 		420D366018EABCD100B4681C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7DF72B4018EEC26900EE9AC6 /* BuiltIO.bundle */,
+				7DF72B4118EEC26900EE9AC6 /* BuiltIO.framework */,
 				7DA7A8D318EC1A5B00F95AEB /* FacebookSDK.framework */,
 				420D36A618EABE2000B4681C /* Accounts.framework */,
 				420D36A418EABE1800B4681C /* Social.framework */,
@@ -179,8 +181,6 @@
 				420D369A18EABDF200B4681C /* SystemConfiguration.framework */,
 				420D369818EABDEB00B4681C /* Security.framework */,
 				420D369618EABDDB00B4681C /* QuartzCore.framework */,
-				420D369018EABD7900B4681C /* BuiltIO.bundle */,
-				420D369118EABD7900B4681C /* BuiltIO.framework */,
 				420D366118EABCD100B4681C /* Foundation.framework */,
 				420D366318EABCD100B4681C /* CoreGraphics.framework */,
 				420D366518EABCD100B4681C /* UIKit.framework */,
@@ -345,7 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420D369318EABD7900B4681C /* BuiltIO.bundle in Resources */,
+				7DF72B4218EEC26900EE9AC6 /* BuiltIO.bundle in Resources */,
 				420D36CF18EB009600B4681C /* missing_person.png in Resources */,
 				420D36CE18EB009600B4681C /* contacts-icon.png in Resources */,
 				420D366C18EABCD100B4681C /* InfoPlist.strings in Resources */,
@@ -503,6 +503,7 @@
 					"$(inherited)",
 					"/Users/sameer/Documents/iOS\\ Projects/BuiltFacebookTutorial",
 					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Tutorials/BuiltFacebookTutorial",
+					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Git_Tutorials/built.io-ios-tutorial-facebook-demo/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltFacebookTutorial/BuiltFacebookTutorial-Prefix.pch";
@@ -522,6 +523,7 @@
 					"$(inherited)",
 					"/Users/sameer/Documents/iOS\\ Projects/BuiltFacebookTutorial",
 					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Tutorials/BuiltFacebookTutorial",
+					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Git_Tutorials/built.io-ios-tutorial-facebook-demo/built.io-ios-framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltFacebookTutorial/BuiltFacebookTutorial-Prefix.pch";
