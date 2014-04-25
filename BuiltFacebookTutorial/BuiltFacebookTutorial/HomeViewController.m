@@ -49,6 +49,7 @@
     self.imageView.layer.masksToBounds = YES;
     
     
+    
     self.label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 320, 20)];
     self.label.text = @"You are logged in as";
     self.label.textAlignment = NSTextAlignmentCenter;
@@ -86,7 +87,7 @@
     if (!isDataNull) {
         NSDictionary *userProfile = [[authDataDict objectForKey:@"facebook"] objectForKey:@"user_profile"];
         self.loggedInLabel.text = [NSString stringWithFormat:@"%@ %@",[userProfile objectForKey:@"first_name"],[userProfile objectForKey:@"last_name"]];
-        NSString *imageURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture",[userProfile objectForKey:@"id"]];
+        NSString *imageURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=large",[userProfile objectForKey:@"id"]];
         
         [self.imageView setImageWithURL:[NSURL URLWithString:imageURL] placeholderImage:[UIImage imageNamed:@"missing_person.png"]];
         

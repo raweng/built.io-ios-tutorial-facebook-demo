@@ -41,6 +41,9 @@
 		420D36CA18EAFDB700B4681C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D36C118EAFDB700B4681C /* UIImageView+AFNetworking.m */; };
 		420D36CE18EB009600B4681C /* contacts-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 420D36CC18EB009600B4681C /* contacts-icon.png */; };
 		420D36CF18EB009600B4681C /* missing_person.png in Resources */ = {isa = PBXBuildFile; fileRef = 420D36CD18EB009600B4681C /* missing_person.png */; };
+		42EF5267190A934D008346CB /* Built-Facebook-Login58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5264190A934D008346CB /* Built-Facebook-Login58.png */; };
+		42EF5268190A934D008346CB /* Built-Facebook-Login80.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5265190A934D008346CB /* Built-Facebook-Login80.png */; };
+		42EF5269190A934D008346CB /* Built-Facebook-Login120.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF5266190A934D008346CB /* Built-Facebook-Login120.png */; };
 		7DA7A8D418EC1A5B00F95AEB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DA7A8D318EC1A5B00F95AEB /* FacebookSDK.framework */; };
 		7DF72B4218EEC26900EE9AC6 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DF72B4018EEC26900EE9AC6 /* BuiltIO.bundle */; };
 		7DF72B4318EEC26900EE9AC6 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF72B4118EEC26900EE9AC6 /* BuiltIO.framework */; };
@@ -107,6 +110,9 @@
 		420D36C118EAFDB700B4681C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		420D36CC18EB009600B4681C /* contacts-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts-icon.png"; sourceTree = "<group>"; };
 		420D36CD18EB009600B4681C /* missing_person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missing_person.png; sourceTree = "<group>"; };
+		42EF5264190A934D008346CB /* Built-Facebook-Login58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Facebook-Login58.png"; sourceTree = "<group>"; };
+		42EF5265190A934D008346CB /* Built-Facebook-Login80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Facebook-Login80.png"; sourceTree = "<group>"; };
+		42EF5266190A934D008346CB /* Built-Facebook-Login120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-Facebook-Login120.png"; sourceTree = "<group>"; };
 		7DA7A8D318EC1A5B00F95AEB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		7DF72B4018EEC26900EE9AC6 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
 		7DF72B4118EEC26900EE9AC6 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
@@ -264,10 +270,21 @@
 		420D36CB18EB007200B4681C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42EF5263190A927D008346CB /* AppIcons */,
 				420D36CC18EB009600B4681C /* contacts-icon.png */,
 				420D36CD18EB009600B4681C /* missing_person.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		42EF5263190A927D008346CB /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				42EF5264190A934D008346CB /* Built-Facebook-Login58.png */,
+				42EF5265190A934D008346CB /* Built-Facebook-Login80.png */,
+				42EF5266190A934D008346CB /* Built-Facebook-Login120.png */,
+			);
+			path = AppIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,8 +364,11 @@
 			files = (
 				7DF72B4218EEC26900EE9AC6 /* BuiltIO.bundle in Resources */,
 				420D36CF18EB009600B4681C /* missing_person.png in Resources */,
+				42EF5268190A934D008346CB /* Built-Facebook-Login80.png in Resources */,
 				420D36CE18EB009600B4681C /* contacts-icon.png in Resources */,
+				42EF5267190A934D008346CB /* Built-Facebook-Login58.png in Resources */,
 				420D366C18EABCD100B4681C /* InfoPlist.strings in Resources */,
+				42EF5269190A934D008346CB /* Built-Facebook-Login120.png in Resources */,
 				420D367418EABCD100B4681C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +517,6 @@
 		420D368B18EABCD100B4681C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,7 +536,6 @@
 		420D368C18EABCD100B4681C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

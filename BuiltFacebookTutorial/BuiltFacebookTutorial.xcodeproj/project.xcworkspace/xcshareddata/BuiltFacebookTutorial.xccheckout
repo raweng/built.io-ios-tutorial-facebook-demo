@@ -5,47 +5,48 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3E890411-58C7-443B-83AD-587F412845D6</string>
+	<string>B0913E9B-0DFF-4FE7-A89F-0CBEF46B916D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BuiltFacebookTutorial</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2D002A46-FDA8-4CAD-9AA2-4B09C9E23F69</key>
-		<string>https://raw-engineering-inc.svn.beanstalkapp.com/built-io-mobile-apps/trunk/iOS/Tutorials</string>
+		<key>21C51FDB-DD54-4287-AC42-FB7240392E69</key>
+		<string>https://github.com/raweng/built.io-ios-tutorial-facebook-demo.git</string>
+		<key>FE0DF251-0C0F-4C4E-A3D4-E622AA6180CC</key>
+		<string>https://github.com/raweng/built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BuiltFacebookTutorial/BuiltFacebookTutorial.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2D002A46-FDA8-4CAD-9AA2-4B09C9E23F69</key>
+		<key>21C51FDB-DD54-4287-AC42-FB7240392E69</key>
 		<string>../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>2D002A46-FDA8-4CAD-9AA2-4B09C9E23F69</key>
-		<string>https://raw-engineering-inc.svn.beanstalkapp.com/built-io-mobile-apps</string>
+		<key>FE0DF251-0C0F-4C4E-A3D4-E622AA6180CC</key>
+		<string>../../../built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://raw-engineering-inc.svn.beanstalkapp.com/built-io-mobile-apps/trunk/iOS/Tutorials/BuiltFacebookTutorial/BuiltFacebookTutorial.xcodeproj</string>
+	<string>https://github.com/raweng/built.io-ios-tutorial-facebook-demo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2D002A46-FDA8-4CAD-9AA2-4B09C9E23F69</string>
+	<string>21C51FDB-DD54-4287-AC42-FB7240392E69</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
-			<string>tags</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2D002A46-FDA8-4CAD-9AA2-4B09C9E23F69</string>
+			<string>21C51FDB-DD54-4287-AC42-FB7240392E69</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Tutorials</string>
+			<string>built</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE0DF251-0C0F-4C4E-A3D4-E622AA6180CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>built</string>
 		</dict>
 	</array>
 </dict>
