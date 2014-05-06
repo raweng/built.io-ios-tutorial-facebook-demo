@@ -518,12 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/sameer/Documents/iOS\\ Projects/BuiltFacebookTutorial",
-					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Tutorials/BuiltFacebookTutorial",
-					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Git_Tutorials/built.io-ios-tutorial-facebook-demo/built.io-ios-framework",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltFacebookTutorial/BuiltFacebookTutorial-Prefix.pch";
 				INFOPLIST_FILE = "BuiltFacebookTutorial/BuiltFacebookTutorial-Info.plist";
@@ -537,12 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/sameer/Documents/iOS\\ Projects/BuiltFacebookTutorial",
-					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Tutorials/BuiltFacebookTutorial",
-					"/Users/viresh/Desktop/raw_project/built\\ io\\ tutorials/Git_Tutorials/built.io-ios-tutorial-facebook-demo/built.io-ios-framework",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltFacebookTutorial/BuiltFacebookTutorial-Prefix.pch";
 				INFOPLIST_FILE = "BuiltFacebookTutorial/BuiltFacebookTutorial-Info.plist";
