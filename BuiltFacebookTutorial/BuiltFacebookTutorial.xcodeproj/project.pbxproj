@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23AA9E071A23155300F725BD /* BuiltFacebookTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AA9E061A23155300F725BD /* BuiltFacebookTutorialTests.m */; };
 		420D366218EABCD100B4681C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D366118EABCD100B4681C /* Foundation.framework */; };
 		420D366418EABCD100B4681C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D366318EABCD100B4681C /* CoreGraphics.framework */; };
 		420D366618EABCD100B4681C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D366518EABCD100B4681C /* UIKit.framework */; };
@@ -14,11 +15,6 @@
 		420D366E18EABCD100B4681C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D366D18EABCD100B4681C /* main.m */; };
 		420D367218EABCD100B4681C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D367118EABCD100B4681C /* AppDelegate.m */; };
 		420D367418EABCD100B4681C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420D367318EABCD100B4681C /* Images.xcassets */; };
-		420D367B18EABCD100B4681C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D367A18EABCD100B4681C /* XCTest.framework */; };
-		420D367C18EABCD100B4681C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D366118EABCD100B4681C /* Foundation.framework */; };
-		420D367D18EABCD100B4681C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D366518EABCD100B4681C /* UIKit.framework */; };
-		420D368518EABCD100B4681C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 420D368318EABCD100B4681C /* InfoPlist.strings */; };
-		420D368718EABCD100B4681C /* BuiltFacebookTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 420D368618EABCD100B4681C /* BuiltFacebookTutorialTests.m */; };
 		420D369718EABDDB00B4681C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369618EABDDB00B4681C /* QuartzCore.framework */; };
 		420D369918EABDEB00B4681C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369818EABDEB00B4681C /* Security.framework */; };
 		420D369B18EABDF200B4681C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420D369A18EABDF200B4681C /* SystemConfiguration.framework */; };
@@ -50,7 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		420D367E18EABCD100B4681C /* PBXContainerItemProxy */ = {
+		23AA9E081A23155300F725BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 420D365618EABCD100B4681C /* Project object */;
 			proxyType = 1;
@@ -60,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23AA9E021A23155300F725BD /* BuiltFacebookTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltFacebookTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AA9E051A23155300F725BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AA9E061A23155300F725BD /* BuiltFacebookTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltFacebookTutorialTests.m; sourceTree = "<group>"; };
 		420D365E18EABCD100B4681C /* BuiltFacebookTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltFacebookTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		420D366118EABCD100B4681C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		420D366318EABCD100B4681C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,7 +70,6 @@
 		420D367018EABCD100B4681C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		420D367118EABCD100B4681C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		420D367318EABCD100B4681C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		420D367918EABCD100B4681C /* BuiltFacebookTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltFacebookTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420D367A18EABCD100B4681C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		420D368218EABCD100B4681C /* BuiltFacebookTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltFacebookTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		420D368418EABCD100B4681C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -119,6 +117,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		23AA9DFF1A23155300F725BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		420D365B18EABCD100B4681C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,24 +145,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		420D367618EABCD100B4681C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				420D367B18EABCD100B4681C /* XCTest.framework in Frameworks */,
-				420D367D18EABCD100B4681C /* UIKit.framework in Frameworks */,
-				420D367C18EABCD100B4681C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23AA9E031A23155300F725BD /* BuiltFacebookTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				23AA9E061A23155300F725BD /* BuiltFacebookTutorialTests.m */,
+				23AA9E041A23155300F725BD /* Supporting Files */,
+			);
+			path = BuiltFacebookTutorialTests;
+			sourceTree = "<group>";
+		};
+		23AA9E041A23155300F725BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23AA9E051A23155300F725BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		420D365518EABCD100B4681C = {
 			isa = PBXGroup;
 			children = (
 				420D366718EABCD100B4681C /* BuiltFacebookTutorial */,
 				420D368018EABCD100B4681C /* BuiltFacebookTutorialTests */,
+				23AA9E031A23155300F725BD /* BuiltFacebookTutorialTests */,
 				420D366018EABCD100B4681C /* Frameworks */,
 				420D365F18EABCD100B4681C /* Products */,
 			);
@@ -167,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				420D365E18EABCD100B4681C /* BuiltFacebookTutorial.app */,
-				420D367918EABCD100B4681C /* BuiltFacebookTutorialTests.xctest */,
+				23AA9E021A23155300F725BD /* BuiltFacebookTutorialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,6 +303,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		23AA9E011A23155300F725BD /* BuiltFacebookTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AA9E0A1A23155300F725BD /* Build configuration list for PBXNativeTarget "BuiltFacebookTutorialTests" */;
+			buildPhases = (
+				23AA9DFE1A23155300F725BD /* Sources */,
+				23AA9DFF1A23155300F725BD /* Frameworks */,
+				23AA9E001A23155300F725BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23AA9E091A23155300F725BD /* PBXTargetDependency */,
+			);
+			name = BuiltFacebookTutorialTests;
+			productName = BuiltFacebookTutorialTests;
+			productReference = 23AA9E021A23155300F725BD /* BuiltFacebookTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		420D365D18EABCD100B4681C /* BuiltFacebookTutorial */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 420D368A18EABCD100B4681C /* Build configuration list for PBXNativeTarget "BuiltFacebookTutorial" */;
@@ -307,24 +338,6 @@
 			productReference = 420D365E18EABCD100B4681C /* BuiltFacebookTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		420D367818EABCD100B4681C /* BuiltFacebookTutorialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 420D368D18EABCD100B4681C /* Build configuration list for PBXNativeTarget "BuiltFacebookTutorialTests" */;
-			buildPhases = (
-				420D367518EABCD100B4681C /* Sources */,
-				420D367618EABCD100B4681C /* Frameworks */,
-				420D367718EABCD100B4681C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				420D367F18EABCD100B4681C /* PBXTargetDependency */,
-			);
-			name = BuiltFacebookTutorialTests;
-			productName = BuiltFacebookTutorialTests;
-			productReference = 420D367918EABCD100B4681C /* BuiltFacebookTutorialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,7 +347,8 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Sameer;
 				TargetAttributes = {
-					420D367818EABCD100B4681C = {
+					23AA9E011A23155300F725BD = {
+						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 420D365D18EABCD100B4681C;
 					};
 				};
@@ -352,12 +366,19 @@
 			projectRoot = "";
 			targets = (
 				420D365D18EABCD100B4681C /* BuiltFacebookTutorial */,
-				420D367818EABCD100B4681C /* BuiltFacebookTutorialTests */,
+				23AA9E011A23155300F725BD /* BuiltFacebookTutorialTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		23AA9E001A23155300F725BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		420D365C18EABCD100B4681C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,17 +394,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		420D367718EABCD100B4681C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				420D368518EABCD100B4681C /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		23AA9DFE1A23155300F725BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AA9E071A23155300F725BD /* BuiltFacebookTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		420D365A18EABCD100B4681C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,21 +425,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		420D367518EABCD100B4681C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				420D368718EABCD100B4681C /* BuiltFacebookTutorialTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		420D367F18EABCD100B4681C /* PBXTargetDependency */ = {
+		23AA9E091A23155300F725BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 420D365D18EABCD100B4681C /* BuiltFacebookTutorial */;
-			targetProxy = 420D367E18EABCD100B4681C /* PBXContainerItemProxy */;
+			targetProxy = 23AA9E081A23155300F725BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,6 +455,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		23AA9E0B1A23155300F725BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltFacebookTutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltFacebookTutorial.app/BuiltFacebookTutorial";
+			};
+			name = Debug;
+		};
+		23AA9E0C1A23155300F725BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltFacebookTutorialTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltFacebookTutorial.app/BuiltFacebookTutorial";
+			};
+			name = Release;
+		};
 		420D368818EABCD100B4681C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -542,51 +599,17 @@
 			};
 			name = Release;
 		};
-		420D368E18EABCD100B4681C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuiltFacebookTutorial.app/BuiltFacebookTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BuiltFacebookTutorial/BuiltFacebookTutorial-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BuiltFacebookTutorialTests/BuiltFacebookTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		420D368F18EABCD100B4681C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuiltFacebookTutorial.app/BuiltFacebookTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BuiltFacebookTutorial/BuiltFacebookTutorial-Prefix.pch";
-				INFOPLIST_FILE = "BuiltFacebookTutorialTests/BuiltFacebookTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23AA9E0A1A23155300F725BD /* Build configuration list for PBXNativeTarget "BuiltFacebookTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AA9E0B1A23155300F725BD /* Debug */,
+				23AA9E0C1A23155300F725BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		420D365918EABCD100B4681C /* Build configuration list for PBXProject "BuiltFacebookTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -601,15 +624,6 @@
 			buildConfigurations = (
 				420D368B18EABCD100B4681C /* Debug */,
 				420D368C18EABCD100B4681C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		420D368D18EABCD100B4681C /* Build configuration list for PBXNativeTarget "BuiltFacebookTutorialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				420D368E18EABCD100B4681C /* Debug */,
-				420D368F18EABCD100B4681C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,43 +10,43 @@
 	<string>BuiltFacebookTutorial</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>21C51FDB-DD54-4287-AC42-FB7240392E69</key>
-		<string>https://github.com/raweng/built.io-ios-tutorial-facebook-demo.git</string>
-		<key>FE0DF251-0C0F-4C4E-A3D4-E622AA6180CC</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
 		<string>https://github.com/raweng/built.io-ios-framework</string>
+		<key>EF245D7854099ABAFF2A07675033E27414B1DD70</key>
+		<string>https://github.com/raweng/built.io-ios-tutorial-facebook-demo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BuiltFacebookTutorial/BuiltFacebookTutorial.xcodeproj/project.xcworkspace</string>
+	<string>BuiltFacebookTutorial/BuiltFacebookTutorial.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>21C51FDB-DD54-4287-AC42-FB7240392E69</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
+		<string>../../..built.io-ios-framework</string>
+		<key>EF245D7854099ABAFF2A07675033E27414B1DD70</key>
 		<string>../../..</string>
-		<key>FE0DF251-0C0F-4C4E-A3D4-E622AA6180CC</key>
-		<string>../../../built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raweng/built.io-ios-tutorial-facebook-demo.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>21C51FDB-DD54-4287-AC42-FB7240392E69</string>
+	<string>EF245D7854099ABAFF2A07675033E27414B1DD70</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>21C51FDB-DD54-4287-AC42-FB7240392E69</string>
+			<string>EF245D7854099ABAFF2A07675033E27414B1DD70</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built</string>
+			<string>built.io-ios-tutorial-facebook-demo</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FE0DF251-0C0F-4C4E-A3D4-E622AA6180CC</string>
+			<string>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built</string>
+			<string>built.io-ios-tutorial-facebook-demobuilt.io-ios-framework</string>
 		</dict>
 	</array>
 </dict>
