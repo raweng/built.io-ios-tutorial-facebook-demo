@@ -6,6 +6,7 @@
 #import "AppDelegate.h"
 #import "LoginViewController.h"
 #import "HomeViewController.h"
+
 NSString * const kFBAPIKEY = @"305970426143095";
 NSString * const kAppAPI_key = @"blt54bb6fddb6a8a4be";
 NSString * const cAppUID = @"photofairapp";
@@ -17,7 +18,7 @@ NSString * const cAppUID = @"photofairapp";
 @end
 
 // ****************************************************************************
-// BuiltFacebookTutorial app gives Login with Built.io to facebook account
+// BuiltFacebookTutorial app gives Login with Built.io Backend to facebook account
 // ****************************************************************************
 
 @implementation AppDelegate
@@ -26,7 +27,7 @@ NSString * const cAppUID = @"photofairapp";
 {
     
     //Sets the api key and application uid of your application
-    [Built initializeWithApiKey:kAppAPI_key andUid:cAppUID];
+    self.builtApplication = [Built applicationWithAPIKey:kAppAPI_key];
     
     // Initiate FBSession with API key with tokenCacheStrategy
     self.session = [[FBSession alloc]initWithAppID:kFBAPIKEY permissions:nil urlSchemeSuffix:nil tokenCacheStrategy:[[FBSessionTokenCachingStrategy alloc] initWithUserDefaultTokenInformationKeyName:@"FBAccessTokenInformationKey"]];
@@ -34,9 +35,9 @@ NSString * const cAppUID = @"photofairapp";
     // An application may get or set the current active session
     [FBSession setActiveSession:self.session];
     
-    NSLog(@"[BuiltUser getSession]  %@",[BuiltUser getSession]);
+    NSLog(@"[BuiltUser getSession]  %@",[self.builtApplication currentUser]);
     
-    if ([BuiltUser getSession] == nil) {
+    if ([self.builtApplication currentUser] == nil) {
         self.loginViewController = [[LoginViewController alloc]initWithNibName:nil bundle:nil];
         
         self.navigationController = [[UINavigationController alloc]initWithRootViewController:self.loginViewController];
@@ -136,7 +137,7 @@ NSString * const cAppUID = @"photofairapp";
 
 
 
-+ (NSBundle *)frameworkBundle {
++ (NSBundle *)builtFrameworkBundle {
     
     static NSBundle* frameworkBundle = nil;
     

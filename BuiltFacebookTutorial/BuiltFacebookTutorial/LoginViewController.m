@@ -56,9 +56,10 @@
     
     // Check if user has logged in with facebook
     //
-    //   BuiltUser is a special class that allows adding the users functionality to our application.It features such as registration, logging in, logging out live here.
+    //   BuiltUser is a special class that allows adding the users functionality to our application. It features such as registration, logging in, logging out live here.
+    
     //Gets user session stored on disk.
-    BuiltUser *user = [BuiltUser getSession];
+    BuiltUser *user = [[AppDelegate sharedAppDelegate].builtApplication currentUser];
     if (user != nil) {
         NSDictionary *facebookData = [[user objectForKey:@"auth_data"] objectForKey:@"facebook"];
         if (facebookData != nil) {
@@ -73,14 +74,18 @@
     if (!self.isFBLogged) {
         [delegate openSession:^(FBSession *session) {
             if (session) {
-                BuiltUser *builtUser = [BuiltUser user];
-                [builtUser loginWithFacebookAccessToken:[delegate.session accessTokenData].accessToken onSuccess:^{
-                    [builtUser saveSession];
-                    [self callForDetailView];
-                    
-                } onError:^(NSError *error) {
-                    UIAlertView *fbErrorAlert = [[UIAlertView alloc]initWithTitle:@"Facebook Login Error" message:@"Please try again in a short while..." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-                    [fbErrorAlert show];
+                BuiltUser *builtUser = [[AppDelegate sharedAppDelegate].builtApplication currentUser];
+                [builtUser loginInBackgroundWithFacebookAccessToken:[delegate.session accessTokenData].accessToken completion:^(ResponseType responseType, NSError *error) {
+                    if (!error) {
+                        [builtUser setAsCurrentUser];
+                        [self callForDetailView];
+
+                    }else {
+                        UIAlertView *fbErrorAlert = [[UIAlertView alloc]initWithTitle:@"Facebook Login Error" message:@"Please try again in a short while..." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+                        [fbErrorAlert show];
+
+                    }
+
                 }];
             }else{
                 UIAlertView *fbErrorAlert = [[UIAlertView alloc]initWithTitle:@"Facebook Login Error" message:@"Please try again in a short while..." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];

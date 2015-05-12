@@ -72,7 +72,7 @@
     [self.view addSubview:self.loggedInLabel];
     [self.view addSubview:self.emailLabel];
     
-    self.user = [BuiltUser getSession];
+    self.user = [[AppDelegate sharedAppDelegate].builtApplication currentUser];
     
     BOOL isDataNull = NO;
     NSDictionary *authDataDict = [self.user objectForKey:@"auth_data"];
@@ -96,23 +96,25 @@
 }
 
 - (void)logout:(id)sender{
-    AppDelegate *appDelegate = [AppDelegate sharedAppDelegate];
     
-    appDelegate.session = [[FBSession alloc]init];
-    [FBSession.activeSession closeAndClearTokenInformation];
-    [[AppDelegate sharedAppDelegate].session close];
-    [FBSession setActiveSession:Nil];
-    
-        BuiltUser *user = [BuiltUser currentUser];
-        [user clearSession];
+    BuiltUser *user = [[AppDelegate sharedAppDelegate].builtApplication currentUser];
+    [user logoutInBackgroundWithCompletion:^(ResponseType responseType, NSError *error) {
+        if (error == nil) {
+            AppDelegate *appDelegate = [AppDelegate sharedAppDelegate];
+            appDelegate.session = [[FBSession alloc]init];
+            [FBSession.activeSession closeAndClearTokenInformation];
+            [[AppDelegate sharedAppDelegate].session close];
+            [FBSession setActiveSession:Nil];
 
-        NSMutableArray *vcs =  [NSMutableArray arrayWithArray:self.navigationController.viewControllers];
-        LoginViewController* loginViewController = [[LoginViewController alloc]initWithNibName:nil bundle:nil];
-        [vcs insertObject:loginViewController atIndex:0];
-        [[AppDelegate sharedAppDelegate].navigationController setViewControllers:vcs animated:NO];
-    
-    UIViewController *viewController = [[AppDelegate sharedAppDelegate].navigationController.viewControllers objectAtIndex:0];
-    [[AppDelegate sharedAppDelegate].navigationController popToViewController:viewController animated:YES];
+            NSMutableArray *vcs =  [NSMutableArray arrayWithArray:self.navigationController.viewControllers];
+            LoginViewController* loginViewController = [[LoginViewController alloc]initWithNibName:nil bundle:nil];
+            [vcs insertObject:loginViewController atIndex:0];
+            [[AppDelegate sharedAppDelegate].navigationController setViewControllers:vcs animated:NO];
+            
+            UIViewController *viewController = [[AppDelegate sharedAppDelegate].navigationController.viewControllers objectAtIndex:0];
+            [[AppDelegate sharedAppDelegate].navigationController popToViewController:viewController animated:YES];
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning

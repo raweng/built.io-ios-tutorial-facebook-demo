@@ -1,4 +1,4 @@
-built.io-ios-tutorial-facebook-demo
+Login with Facebook Tutorial
 ===================================
 
-This tutorial demonstrates how to sign in a user to built.io using their facebook account.
+This tutorial demonstrates how to login a user to Built.io Backend using their facebook account.
